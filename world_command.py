@@ -9,6 +9,6 @@ def new_function(string):
     for x in string:
         if x == 'a':
             count += 1
-    return count
+    print(count)
 
 new_function('aaaabbbbbcccc')
